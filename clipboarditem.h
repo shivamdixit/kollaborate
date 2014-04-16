@@ -23,6 +23,9 @@ signals:
 public slots:
     void onButtonClicked();
 
+private slots:
+    void vlcClosed();
+
 private:
     QProcess *vlc;
 

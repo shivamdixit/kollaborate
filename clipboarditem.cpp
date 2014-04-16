@@ -51,6 +51,14 @@ void ClipboardItem::onButtonClicked()
         groupAddress = "239.255.0." + QString::number(pinMod);
 
         vlc = new QProcess;
+        QObject::connect(vlc, SIGNAL(finished(int)), this, SLOT(vlcClosed()));
         vlc->start("vlc udp://" + data + "@" + groupAddress + ":12345");
+        button->setEnabled(false);
     }
+}
+
+void ClipboardItem::vlcClosed() {
+    delete vlc;
+    vlc = 0;
+    button->setEnabled(true);
 }
