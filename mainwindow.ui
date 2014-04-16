@@ -149,9 +149,11 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <tabstops>
-  <tabstop>pushButton</tabstop>
   <tabstop>titleText</tabstop>
-  <tabstop>scrollArea</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>startShareScreenButton</tabstop>
+  <tabstop>stopShareScreenButton</tabstop>
+  <tabstop>pushButton</tabstop>
  </tabstops>
  <resources/>
  <connections>
