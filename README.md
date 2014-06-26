@@ -12,7 +12,8 @@ For the latter, kollaborate depends on ffmpeg, libavcodec, vlc.
 - cd build
 - qmake ../kollaborate.pro #try qmake-qt5 here, if make throw errors
 - make
-- ./kollaborate
+- make install #may require root privileges
+- kollaborate
 
 ###Contributors###
 - **Ashish Madeti**

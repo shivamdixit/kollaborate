@@ -23,3 +23,6 @@ HEADERS  += src/mainwindow.h \
 
 FORMS    += ui/mainwindow.ui \
     ui/initialdialog.ui
+
+target.path = /usr/local/bin/
+INSTALLS += target
