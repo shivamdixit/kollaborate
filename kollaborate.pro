@@ -12,14 +12,14 @@ TARGET = kollaborate
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    initialdialog.cpp \
-    clipboarditem.cpp
+SOURCES += src/main.cpp\
+        src/mainwindow.cpp \
+    src/initialdialog.cpp \
+    src/clipboarditem.cpp
 
-HEADERS  += mainwindow.h \
-    initialdialog.h \
-    clipboarditem.h
+HEADERS  += src/mainwindow.h \
+    src/initialdialog.h \
+    src/clipboarditem.h
 
-FORMS    += mainwindow.ui \
-    initialdialog.ui
+FORMS    += ui/mainwindow.ui \
+    ui/initialdialog.ui
