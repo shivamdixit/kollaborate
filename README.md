@@ -16,10 +16,10 @@ For the latter, kollaborate depends on ffmpeg, libavcodec, vlc.
 - kollaborate
 
 ###Contributors###
-- **Ashish Madeti**
-- **Shivam Dixit**
-- **Ritesh Agrawal**
-- **Deepak Sharma**
+- Ashish Madeti
+- Shivam Dixit
+- Ritesh Agrawal
+- Deepak Sharma
 
 Note: Qt5.2 is required for building this project
 
